@@ -14,9 +14,9 @@ public class QueryParam {
 		this.operator = oprator;
 	}
 
-	public QueryParam(Operator oprator, List<QueryParam> params) {
+	public QueryParam(Operator operator, List<QueryParam> params) {
 		super();
-		this.operator = oprator;
+		this.operator = operator;
 		this.params = params;
 	}
 
@@ -24,7 +24,7 @@ public class QueryParam {
 		return key;
 	}
 
-	public Operator getOprator() {
+	public Operator getOperator() {
 		return operator;
 	}
 
